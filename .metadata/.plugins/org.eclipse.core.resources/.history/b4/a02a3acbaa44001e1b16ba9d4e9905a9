@@ -1,0 +1,13 @@
+package com.perf.collection;
+
+import java.util.Set;
+
+public class RandomKeyUtil {
+	
+	public static String[] generateRandomSetKeysSwap(Set<String> set) {
+		int size = set.size();
+		String result[] = new String[size];
+		
+	}
+
+}

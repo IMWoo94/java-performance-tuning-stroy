@@ -1,0 +1,14 @@
+package com.perf.collection;
+
+import java.util.Map;
+
+public class MapGet {
+	
+	int LOOP_COUNT = 1000;
+	Map<Integer, String> hashMap;
+	Map<Integer, String> hashTable;
+	Map<Integer, String> treeMap;
+	Map<Integer, String> linkedHashMap;
+	
+
+}

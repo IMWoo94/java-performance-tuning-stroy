@@ -1,0 +1,23 @@
+package com.perf.condition;
+
+import java.util.Random;
+
+public class ConditionIf {
+	
+	int LOOP_COUNT = 1000;
+	
+	public void randomOnly() {
+		Random random = new Random();
+		int data = 1000 + random.nextInt();
+		for(int i =0; i<LOOP_COUNT; i++) {
+			resultProcess("dummy");
+		}
+	}
+	
+	
+	String current;
+	public void resultProcess(String reuslt) {
+		
+	}
+
+}

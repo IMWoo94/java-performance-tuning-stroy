@@ -1,0 +1,5 @@
+package com.perf.statics.bad;
+
+public class BadQueryManager {
+
+}

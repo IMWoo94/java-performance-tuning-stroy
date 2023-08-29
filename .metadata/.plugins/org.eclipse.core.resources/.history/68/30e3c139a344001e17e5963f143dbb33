@@ -1,0 +1,16 @@
+package com.perf.timer;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import javax.annotation.processing.Generated;
+
+public class CompareTimerJMH {
+	
+	@GeneratedMicroBenchmark
+	public void makeObjecttWithSize() {
+		HashMap<String, String> map = new HashMap<>(10);
+		ArrayList<String> list = new ArrayList<>(10);
+	}
+
+}

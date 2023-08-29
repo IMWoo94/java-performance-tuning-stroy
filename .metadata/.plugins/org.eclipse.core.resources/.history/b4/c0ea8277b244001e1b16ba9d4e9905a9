@@ -1,0 +1,11 @@
+package com.perf.statics;
+
+public class StaticBasicSample2 {
+	static String staticVal;
+	
+	static {
+		staticVal = "Static val";
+		staticVal = StaticBasicSample.staticInt + "";
+	}
+
+}

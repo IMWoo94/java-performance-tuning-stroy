@@ -1,0 +1,10 @@
+package com.perf.statics.bad;
+
+public class BadQueryManager {
+	private static String queryURL = null;
+	
+	public BadQueryManager(String badUrl) {
+		queryURL = badUrl;
+	}
+
+}

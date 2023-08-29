@@ -1,0 +1,30 @@
+package com.perf.collection;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Vector;
+
+public class ListGet {
+	
+	int LOOP_COUNT = 1000;
+	List<Integer> arrayList;
+	List<Integer> vector;
+	List<Integer> linkedList;
+	
+	int result = 0;
+	
+	public void setUp() {
+		arrayList = new ArrayList<>();
+		vector = new Vector<>();
+		linkedList = new LinkedList<>();
+		
+		for(int i = 0; i < LOOP_COUNT; i++) {
+			arrayList.add(i);
+			vector.add(i);
+			linkedList.add(i);
+		}
+	}
+	
+
+}

@@ -1,0 +1,19 @@
+package com.perf.statics;
+
+public class StaticBasicSample2 {
+	public static int staticInt = 0;
+
+	public static void main(String[] args) {
+		StaticBasicSample2 sbs1 = new StaticBasicSample2();
+		sbs1.staticInt++;
+		StaticBasicSample2 sbs2 = new StaticBasicSample2();
+		sbs2.staticInt++;
+		
+		System.out.println(sbs1.staticInt);
+		System.out.println(sbs2.staticInt);
+		System.out.println(StaticBasicSample2.staticInt);
+		
+
+	}
+
+}

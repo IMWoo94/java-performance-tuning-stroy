@@ -1,0 +1,10 @@
+package com.perf.timer;
+
+public class CompareTimerJMH {
+	
+	public void makeObjecttWithSize() {
+		HashMap<String, String> map = new HashMap<>(10);
+		ArrayList<String> list = new ArrayList<>(10);
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.perf.string;
+
+public class StringBufferTest2 {
+
+	public static void main(String[] args) {
+		StringBuffer sb = new StringBuffer();
+		
+		// append
+		sb.append("ABCDE");
+		sb.append("FGHIJ");
+		sb.append("KLMNO");
+		
+		sb.append("ABCDE").append("FGHIJ").append("KLMNO");
+		
+	}
+
+}

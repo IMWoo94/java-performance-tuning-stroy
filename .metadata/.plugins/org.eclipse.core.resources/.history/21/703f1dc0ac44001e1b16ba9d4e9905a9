@@ -1,0 +1,38 @@
+package com.perf.collection;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Vector;
+
+public class ListRemove {
+	
+	int LOOP_COUNT = 1000;
+	List<Integer> arrayList;
+	Vector<Integer> vector;
+	LinkedList<Integer> linkedList;
+	
+	
+	public void addArrayList() {
+		arrayList = new ArrayList<>();
+		for(int i = 0; i < LOOP_COUNT; i++) {
+			arrayList.add(i);
+		}
+	}
+	
+	public void addVector() {
+		vector = new Vector<>();
+		for(int i = 0; i < LOOP_COUNT; i++) {
+			vector.add(i);
+		}
+	}
+	
+	public void addLinkedList() {
+		linkedList = new LinkedList<>();
+		for(int i = 0; i < LOOP_COUNT; i++) {
+			linkedList.add(i);
+		}
+	}
+	
+
+}

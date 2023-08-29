@@ -1,0 +1,21 @@
+package com.perf.string;
+
+public class StringBufferTest2 {
+
+	public static void main(String[] args) {
+		StringBuffer sb = new StringBuffer();
+		
+		// append
+		sb.append("AB!CDE");
+		sb.append("FGHIJ");
+		sb.append("KLMNO");
+		
+		sb.append("ABCDE").append("FGHIJ").append("KLMNO");
+		
+		// 이렇게는 사용 X
+		sb.append("ABCDE" + "=" + "FGHIJ");
+		sb.insert(3, "1234");
+		System.out.println(sb.toString());
+	}
+
+}
